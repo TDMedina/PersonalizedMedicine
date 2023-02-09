@@ -9,13 +9,7 @@ from bs4 import BeautifulSoup, Tag
 
 BASE_URL = "https://www.hse.ie/"
 CODE_PATTERN = re.compile(r"(P0|P|0)0\d{3}[a-z]?")
-# DISEASE_PATTERNS = [
-#     (re.compile(r"\bresectable", flags=re.I), "resectable"),
-#     (re.compile(r"\bunresectable", flags=re.I), "unresectable"),
-#     (re.compile(r"\bmetastatic", flags=re.I), "metastatic"),
-#     (re.comp)
-#
-#     ]
+
 
 def get_chemoprotocol_urls():
     soup = soupify_page(BASE_URL + "/eng/services/list/5/cancer/profinfo/chemoprotocols/")
@@ -162,7 +156,7 @@ def organize_parsed_tables(parsed_data, harmonization_file=None):
                             if (indication.description.lower().replace(" ", "") ==
                                     desc.lower().replace(" ", "")):
                                 pass
-                            if not indication.description:
+                            elif not indication.description:
                                 indication.description = desc
                             else:
                                 warn(f"Indication description mismatch in indication {code}:"
@@ -224,8 +218,6 @@ class Indication:
                   f"diseases={self.diseases})")
         return string
 
-    # def set_flags(self):
-    #     for term in ["metastatic", "unresectable", ]
 
 class Regimen:
     def __init__(self, description, indication_codes=None, diseases=None):
