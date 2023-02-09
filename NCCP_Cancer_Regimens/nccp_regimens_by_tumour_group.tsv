@@ -1,0 +1,512 @@
+Breast	200	Trastuzumab (IV) Monotherapy 21 days
+Breast	201	Trastuzumab (IV) Monotherapy 7 days
+Breast	202	DOCEtaxel Monotherapy 100mg/m2 – 21 day cycle
+Breast	203	DOCEtaxel Monotherapy 75mg/m2 – 21 day cycle
+Breast	204	Pertuzumab + Trastuzumab + DOCEtaxel
+Breast	205	Pegylated Liposomal DOXOrubicin 50mg/m2 (CAELYX) ® 28 days
+Breast	206	Trastuzumab Emtansine (Kadcyla®) - 21 days
+Breast	212	Bevacizumab 10mg/kg-14days
+Breast	215	Bevacizumab 15mg/kg - 21 days
+Breast	216	Capecitabine Monotherapy
+Breast	217	Lapatinib and Capecitabine
+Breast	226	PACLitaxel Monotherapy 80mg/m2 Day 1, 8, 15 and 22 – 28 Day
+Breast	228	EriBULlin Monotherapy
+Breast	230	Nab-PACLitaxel (Abraxane) Monotherapy-21 day cycle
+Breast	232	Intravenous Vinorelbine Monotherapy-21day
+Breast	250	DOCEtaxel /Cyclophosphamide (TC) Therapy-21 day
+Breast	251	CARBOplatin (AUC4-6) Monotherapy-28 days
+Breast	252	DOXOrubicin and Cyclophosphamide (AC 60/600) Therapy-21 day
+Breast	253	Tamoxifen Monotherapy
+Breast	254	Anastrozole Monotherapy
+Breast	258	DOCEtaxel, CARBOplatin and Trastuzumab (TCH) - 21 days
+Breast	259	Oral Vinorelbine Monotherapy-7days
+Breast	260	DOXOrubicin, Cyclophosphamide (AC 60/600) 21 day followed by weekly PACLitaxel (80) Therapy (AC-T)
+Breast	261	CARBOplatin (AUC4-6) Monotherapy-21 days
+Breast	262	epiRUBicin 90 + Cyclophosphamide (EC90) Therapy - 21 day
+Breast	263	epiRUBicin 75 + Cyclophosphamide (EC75) Therapy - 21 day
+Breast	265	5-Fluorouracil, epiRUBicin 100 and Cyclophosphamide (FEC 100) Therapy
+Breast	269	5-Fluorouracil, epiRUBicin 50 and Cyclophosphamide (FEC50) Therapy
+Breast	272	Trastuzumab Subcutaneous 21 days- Metastatic Breast Carcinoma
+Breast	278	Dose Dense DOXOrubicin, Cyclophosphamide (AC 60/600) 14 day followed by PACLitaxel (175) 14 day Therapy (DD AC-T)
+Breast	285	Trastuzumab SC 21 days-Early Breast Cancer
+Breast	316	Dose Dense DOXOrubicin, Cyclophosphamide (AC 60/600) 14 day followed by PACLitaxel (175) 14 day and Trastuzumab Therapy (DD AC-TH)
+Breast	322	Everolimus and Exemestane Therapy
+Breast	348	CARBOplatin (AUC6) and Weekly PACLitaxel 80mg/m2 followed by Dose Dense DOXOrubicin Cyclophosphamide Therapy-Triple Negative Breast Cancer Therapy
+Breast	350	pertuzumab and trastuzumab and chemotherapy -21 day cycles
+Breast	361	Fulvestrant Therapy
+Breast	371	Letrozole Monotherapy
+Breast	376	Exemestane Monotherapy
+Breast	377	Cylophosphamide (Oral) Methotrexate and 5-Fluorouracil (CMF) Therapy
+Breast	378	Cylophosphamide (IV) Methotrexate and 5-Fluorouracil (CMF) 28 Day Therapy
+Breast	381	Cylophosphamide (IV) Methotrexate and 5-Fluorouracil (CMF) 21 Day Therapy
+Breast	414	Palbociclib Therapy-28 day
+Breast	423	DOXOrubicin 50mg/m2/DOCEtaxel 75mg/m2(AT 50/75) Therapy - 21 day cycle
+Breast	430	Gemcitabine and CARBOplatin (AUC2) THERAPY - 21 days
+Breast	432	DOXOrubicin, Cyclophosphamide (AC 60/600) 21 day followed by weekly PACLitaxel (80) and weekly Trastuzumab Therapy (AC-TH)
+Breast	433	Dose Dense DOXOrubicin, Cyclophosphamide (AC 60/600) 14 day followed by weekly PACLitaxel (80) and weekly Trastuzumab Therapy (AC-TH)
+Breast	485	Dose Dense DOXOrubicin, Cyclophosphamide (AC 60/600) 14 day followed by PACLitaxel (80) 7 day Therapy (DD AC-T)
+Breast	507	Pertuzumab Trastuzumab and Weekly PACLitaxel Therapy - 21 day cycle
+Breast	512	PACLitaxel (80) and Trastuzumab Therapy – 7 day (12 weeks)
+Breast	525	Ribociclib Therapy-28 day
+Breast	526	Pertuzumab Trastuzumab and VinORELBine
+Breast	545	Zoledronic acid monotherapy
+Breast	605	Talazoparib Therapy
+Breast	621	PACLitaxel 80mg/m2 Day 1, 8 and 15 Monotherapy-28 Day
+Breast	659	Trastuzumab Emtansine (Kadcyla®) Early Breast Cancer Therapy- 21 days
+Breast	688	Atezolizumab and nab-PACLitaxel Therapy
+Breast	726	Pertuzumab and Trastuzumab Therapy
+Breast	722	DOCEtaxel, CARBOplatin, Trastuzumab and Pertuzumab (TCHP) Therapy
+Breast	731	DOCEtaxel, CARBOplatin, Trastuzumab(S/C) and Pertuzumab (TCHP) Therapy
+Breast	736	Nab-PACLitaxel (Abraxane) Monotherapy-21 day cycle
+Breast	738	Bevacizumab 10mg/kg and PACLitaxel 80mg/m2 Therapy
+Breast	743	eriBULin Monotherapy – 28 Day
+Breast	745	Dose Dense Doxorubicin, Cyclophosphamide (AC 60/600) 14 day followed by weekly PACLitaxel (80) and Trastuzumab 21 day Therapy (DD AC-TH)
+Breast	775	Pertuzumab, Trastuzumab, PACLitaxel and CARBOplatin Therapy (TRAIN-2)
+Breast	785	Pertuzumab and Trastuzumab (Phesgo®) Maintenance Therapy
+Breast	789	DOCEtaxel, CARBOplatin and Pertuzumab/Trastuzumab (Phesgo®)(TCHP) Therapy
+Breast	790	Pertuzumab/Trastuzumab (Phesgo®), PACLitaxel and CARBOplatin Therapy (TRAIN-2)
+Breast	796	Pertuzumab and Trastuzumab (Phesgo®) and DOCEtaxel Therapy - 21 day cycle
+Breast	797	Pertuzumab/Trastuzumab (Phesgo®) and Weekly PACLitaxel Therapy - 21 day cycle
+Gastrointestinal	203	DOCEtaxel Monotherapy 75mg/m2 – 21 day cycle
+Gastrointestinal	207	Cetuximab Monotherapy-7 days
+Gastrointestinal	209	Modified FOLFOX-6 Therapy-14 day
+Gastrointestinal	210	FOLFOX-4 Therapy-14 day
+Gastrointestinal	212	Bevacizumab 10mg/kg-14days
+Gastrointestinal	213	Irinotecan Monotherapy - 21 days
+Gastrointestinal	214	Bevacizumab 7.5mg/kg-21days
+Gastrointestinal	215	Bevacizumab 15mg/kg - 21 days
+Gastrointestinal	216	Capecitabine Monotherapy
+Gastrointestinal	225	Panitumumab 6mg/kg Therapy
+Gastrointestinal	226	PACLitaxel Monotherapy 80mg/m2 7day
+Gastrointestinal	227	FOLFIRI Therapy-14 day
+Gastrointestinal	235	CISplatin and Teysuno-28 day cycle
+Gastrointestinal	238	Aflibercept-14 days
+Gastrointestinal	239	epiRUBicin, Oxaliplatin and Capecitabine (EOX) Therapy
+Gastrointestinal	240	epiRUBicin, CISplatin and 5-FU (ECF) Therapy
+Gastrointestinal	244	Regorafenib Monotherapy
+Gastrointestinal	256	Nab-PACLitaxel (Abraxane®) and Gemcitabine – 28 day
+Gastrointestinal	283	Gemcitabine (1000mg/m2) Monotherapy - 56 day
+Gastrointestinal	284	Gemcitabine (1000mg/m2) Monotherapy - 28 day
+Gastrointestinal	294	Sorafenib Therapy
+Gastrointestinal	321	Capecitabine/Oxaliplatin (XELOX) Therapy
+Gastrointestinal	328	FOLFIRI (14 days)+ Cetuximab (7 days) Therapy
+Gastrointestinal	329	FOLFIRINOX Therapy
+Gastrointestinal	330	Cetuximab (7 days) and Irinotecan (14 days) Therapy
+Gastrointestinal	331	Cetuximab (14 days) and Irinotecan (14 days) Therapy
+Gastrointestinal	344	FLOT Therapy-14 day
+Gastrointestinal	380	epiRUBicin, CISplatin and Capecitabine (ECX) Therapy
+Gastrointestinal	382	Trifluridine and Tipiracil (Lonsurf®) Therapy
+Gastrointestinal	383	Gemcitabine (1000mg/m2) and CISplatin (25mg/m2) Therapy- 21 day
+Gastrointestinal	384	Gemcitabine + Capecitabine Therapy
+Gastrointestinal	386	DOXOrubicin (60mg/m2) Therapy
+Gastrointestinal	421	5-Fluorouracil 225mg/m2/day and Radiotherapy (RT)-Continuous infusion 7 day
+Gastrointestinal	422	CARBOplatin (AUC 2) Weekly and PACLitaxel (50mg/m2) Weekly with Radiotherapy (RT) -5 weeks
+Gastrointestinal	427	Modified Roswell Park (Fluorouracil 500mg/m2 and Folinic Acid 50mg weekly x 6) Regimen / Roswell Park Modified (Fluorouracil 500mg/m2 and Folinic Acid 50mg weekly x 6) Regimen
+Gastrointestinal	428	QUASAR (Modified) Fluorouracil(370mg/m2) and Folinic Acid (50mg) Weekly
+Gastrointestinal	429	epiRUBicin, Oxaliplatin and 5-FU (EOF) Therapy -21 day
+Gastrointestinal	446	Bevacizamab 5mg/kg and Modified FOLFOX-6 Therapy-14 day
+Gastrointestinal	447	Panitumumab 6mg/kg and Modified FOLFOX-6 Therapy – 14 day
+Gastrointestinal	448	Panitumumab 6mg/kg and FOLFIRI Therapy – 14 day
+Gastrointestinal	449	Bevacizumab 5mg/kg and FOLFIRI Therapy – 14 days
+Gastrointestinal	451	5-Fluorouracil (4 day) and mitoMYcin Chemoradiation Therapy
+Gastrointestinal	460	CISplatin 75mg/m2 and 5-Fluorouracil Chemoradiation Therapy-Herskovic Regimen
+Gastrointestinal	473	CISplatin and Capecitabine Adjuvant Chemoradiation Therapy
+Gastrointestinal	486	FLOX Therapy
+Gastrointestinal	502	Trastuzumab 5-Fluorouracil and CISplatin Therapy - 21 days
+Gastrointestinal	505	Capecitabine and Temozolomide Therapy*
+Gastrointestinal	509	Modified FOLFOX-6 Chemoradiation Therapy-14 day
+Gastrointestinal	515	Modified FOLFIRINOX Therapy
+Gastrointestinal	521	Gemcitabine (1000mg/m2) and RT therapy
+Gastrointestinal	522	Gemcitabine (400mg/m2) and RT therapy
+Gastrointestinal	523	Capecitabine and RT – 7 day
+Gastrointestinal	524	Gemcitabine (1000mg/m2) and Capecitabine (830mg/m2) Therapy - 28 days
+Gastrointestinal	555	FOLFOXIRI Therapy
+Gastrointestinal	559	Gemcitabine (600mg/m2) and RT therapy
+Gastrointestinal	585	FOLFIRI (14 days)+ Cetuximab (14 days) Therapy
+Gastrointestinal	586	Capecitabine 825mg/m2 and RT–7 day
+Gastrointestinal	594	CISplatin, Infusional 5-Fluorouracil and Radiation Therapy
+Gastrointestinal	621	PACLitaxel 80mg/m2 Day 1, 8 and 15 Monotherapy-28 Day
+Gastrointestinal	623	Bevacizumab 7.5mg/kg and Capecitabine 1250mg/m2 Therapy - 21 day Therapy- 21 day
+Gastrointestinal	644	Lenvatinib -HCC Therapy
+Gastrointestinal	654	Irinotecan 150mg/m2 Monotherapy - 28 days
+Gastrointestinal	660	5-Fluorouracil and Folinic Acid Therapy-14 day
+Gastrointestinal	691	FOLFIRINOX Therapy - (Rectal Carcinoma)
+Gastrointestinal	692	Cetuximab and FOLFOX-4 Therapy
+Gastrointestinal	704	Trastuzumab and FOLFOX-6 Modified Therapy-14 day
+Gastrointestinal	727	mitoMYcin and Capecitabine Chemoradiation Therapy
+Gastrointestinal	732	Cetuximab Therapy-14 days
+Gastrointestinal	733	Cetuximab and FOLFOX-6 (modified) Therapy
+Gastrointestinal	783	Bevacizumab 5mg/kg and FOLFOXIRI Therapy -14 days
+Genitourinary	101	Cabazitaxel and Prednisolone
+Genitourinary	103	Abiraterone and Prednisolone Therapy
+Genitourinary	104	Axitinib Monotherapy
+Genitourinary	203	DOCEtaxel Monotherapy 75mg/m2 – 21 day cycle
+Genitourinary	212	Bevacizumab 10mg/kg-14days
+Genitourinary	226	PACLitaxel Monotherapy 80mg/m2 Day 1, 8, 15 and 22 – 28 Day
+Genitourinary	233	Enzalutamide Monotherapy
+Genitourinary	257	Radium 223 Therapy
+Genitourinary	282	Gemcitabine (1000mg/m2) and CISplatin (70mg/m2) Therapy- 28 day
+Genitourinary	294	Sorafenib Therapy
+Genitourinary	310	Gemcitabine (1000mg/m2) and CARBOplatin (AUC 5) Therapy- 21 day
+Genitourinary	313	DOCEtaxel Monotheray 50mg/m2 Monotherapy-14 day
+Genitourinary	320	Everolimus Monotherapy
+Genitourinary	325	Sunitinib 50mg Therapy
+Genitourinary	326	Temsirolimus Monotherapy
+Genitourinary	333	Methotrexate,Vinblastine, DOXOrubicin, CISplatin (MVAC) Therapy-14 Days Therapy
+Genitourinary	337	CISplatin, Methotrexate and Vinblastine Therapy
+Genitourinary	338	Methotrexate,Vinblastine, DOXOrubicin, CISplatin (MVAC) Therapy-28 Days
+Genitourinary	385	CISplatin (40mg/m2) Weekly with Radiotherapy (RT)
+Genitourinary	437	TICE -Autologous Conditioning Germ Cell Tumour Regimen
+Genitourinary	445	Pazopanib Therapy
+Genitourinary	450	5-Fluorouracil and mitoMYcin Chemoradiation Therapy
+Genitourinary	453	CARBOplatin (AUC7) and Etoposide- Autologous Conditioning Germ Cell Tumour Regimen
+Genitourinary	455	Pembrolizumab 200mg Monotherapy
+Genitourinary	477	Goserelin 10.8mg-12 Weekly Therapy
+Genitourinary	478	Goserelin 3.6mg Therapy- 4 weeks
+Genitourinary	479	Leuprorelin 22.5mg Therapy- 12 weeks
+Genitourinary	480	Triptorelin 11.25mg Therapy- 12 weeks
+Genitourinary	481	Degarelix Therapy- 28 day
+Genitourinary	482	Bicalutamide Therapy
+Genitourinary	483	Nivolumab Monotherapy 240mg-14 day
+Genitourinary	484	Nivolumab Monotherapy 480mg-28day
+Genitourinary	488	Triptorelin 22.6mg Therapy- 24 weeks
+Genitourinary	489	Triptorelin 3mg Therapy- 28 day
+Genitourinary	490	Leuprorelin 7.5mg Therapy- 28 day
+Genitourinary	491	Leuprorelin 45mg Therapy- 24 week
+Genitourinary	492	Leuprorelin 11.25mg Therapy- 12 weeks
+Genitourinary	493	Leuprorelin 30mg Therapy- 24 weeks
+Genitourinary	494	Leuprorelin 3.75mg Therapy-28 day
+Genitourinary	518	Cabozantanib Therapy
+Genitourinary	544	Atezolizumab 1200mg Monotherapy
+Genitourinary	546	DOCEtaxel 75mg/m2 - Prednisolone combination therapy
+Genitourinary	551	Nivolumab 3mg Ipilimumab 1mg Therapy
+Genitourinary	558	Pembrolizumab 400mg Monotherapy
+Genitourinary	564	Tivozanib Therapy
+Genitourinary	574	Apalutamide therapy
+Genitourinary	577	Abiraterone 1000mg and Prednisolone 5mg Therapy
+Genitourinary	583	Pembrolizumab 200mg and Axitinib Therapy
+Genitourinary	593	Atezolizumab 1680mg Monotherapy – 28 Day
+Genitourinary	592	Atezolizumab Monotherapy-14 day
+Genitourinary	621	PACLitaxel 80mg/m2 Day 1, 8 and 15 Monotherapy-28 Day
+Genitourinary	622	Gemcitabine (1000mg/m2 ) and CISplatin (35mg/m2 ) Therapy- 21 day
+Genitourinary	628	Gemcitabine (1000mg/m2 ) and CISplatin (70mg/m2 ) Therapy- 21 day
+Genitourinary	719	SUNitinib 50mg Therapy (21 days)
+Gynaecology	203	DOCEtaxel Monotherapy 75mg/m2 – 21 day cycle
+Gynaecology	205	Pegylated Liposomal DOXOrubicin 50mg/m2 (CAELYX) ® 28 days
+Gynaecology	212	Bevacizumab 10mg/kg-14days
+Gynaecology	215	Bevacizumab 15mg/kg - 21 days
+Gynaecology	226	PACLitaxel Monotherapy 80mg/m2 Day 1, 8, 15 and 22 – 28 Day
+Gynaecology	232	Intravenous Vinorelbine Monotherapy-21day
+Gynaecology	246	Methotrexate 8 day Charing Cross Regimen
+Gynaecology	247	DACTINomycin Therapy
+Gynaecology	248	EMA/CO Therapy
+Gynaecology	249	Intrathecal Methotrexate for CNS Prophylaxis in GTN
+Gynaecology	251	CARBOplatin (AUC4-6) Monotherapy-28 days
+Gynaecology	261	CARBOplatin (AUC4-6) Monotherapy-21 days
+Gynaecology	264	Etoposide Methotrexate Actinomycin D/Etoposide CISplatin (EMA/EP) Therapy
+Gynaecology	266	PACLitaxel/CISplatin alternating with PACLitaxel/Etoposide (TP/TE) Therapy
+Gynaecology	267	Two Day Etoposide CISplatin (EP) Therapy
+Gynaecology	303	CARBOplatin (AUC5-7.5) and PACLitaxel 175mg/m2 Therapy
+Gynaecology	306	Gemcitabine (1000mg/m2) and CARBOplatin (AUC 4) Therapy- 21 day
+Gynaecology	308	CARBOplatin (AUC 5-6) and Weekly PACLitaxel 80mg/m2 Therapy
+Gynaecology	311	Topotecan Monotherapy-5 day
+Gynaecology	312	Topotecan Monotherapy-Weekly
+Gynaecology	375	Trabectedin and Pegylated Liposomal DOXOrubicin(PLD) Therapy
+Gynaecology	385	CISplatin (40mg/m2) Weekly with Radiotherapy (RT)
+Gynaecology	419	CARBOplatin (AUC 2) Weekly with Radiotherapy (RT)
+Gynaecology	499	Gemcitabine (1000mg/m2), CARBOplatin (AUC 4) and Bevacizumab 15mg/kg Therapy - 21 day
+Gynaecology	588	Olaparib (Tablet) Monotherapy
+Gynaecology	571	Niraparib Monotherapy
+Gynaecology	620	Bevacizumab 7.5mg/kg, CARBOplatin (AUC5) and PACLitaxel 175mg/m2 Therapy
+Gynaecology	621	PACLitaxel 80mg/m2 Day 1, 8 and 15 Monotherapy-28 Day
+Gynaecology	624	Carboplatin AUC 5 and Pegylated Liposomal DOXOrubicin 30mg/m2 Therapy-28 day
+Gynaecology	676	CISplatin (50mg/m2) Chemoradiation followed by CARBOplatin (AUC 5) and PACLitaxel (175mg/m2) – Endometrial Cancer
+Gynaecology	716	Bevacizumab 15mg/kg , CARBOplatin AUC5 and PACLItaxel 175mg/m2
+Gynaecology	766	Bevacizumab 15mg/kg, CARBOplatin (AUC 6) and PACLitaxel 175mg/m2 Therapy
+Gynaecology	769	Bevacizumab 10mg/kg and PACLItaxel 80mg/m2 (day 1,8,15,22) Therapy
+Gynaecology	771	Bevacizumab 10mg/kg and Topotecan 4mg/m2 therapy
+Gynaecology	772	Bevacizumab 10mg/kg and Pegylated DOXOrubicin (CAELYX) 40mg/m2 therapy
+Head & Neck	207	Cetuximab Monotherapy-7 days
+Head & Neck	242	Vandetanib Monotherapy
+Head & Neck	294	Sorafenib Therapy
+Head & Neck	295	Lenvatinib -DTC Therapy
+Head & Neck	314	CISplatin and 5-Fluorouracil Therapy-28 day
+Head & Neck	315	Neoadjuvant DOCEtaxel, CISplatin, 5-Fluorouracil and Chemoradiation and Surgery
+Head & Neck	323	DOCEtaxel,CISplatin and 5-Fluorouracil Chemoradiation (Induction) Therapy
+Head & Neck	324	DOCEtaxel, CISplatin, 5-Fluorouracil and Radiotherapy
+Head & Neck	332	CARBOplatin AUC (1.5) Chemoradiation Therapy-7 days
+Head & Neck	385	CISplatin (40mg/m2) Weekly with Radiotherapy (RT)
+Head & Neck	387	CISplatin (100mg/m2) with Radiotherapy (RT)
+Head & Neck	417	Cetuximab (weekly), CISplatin 100mg/m2 and 5-FU 1000mg/m2/ day Therapy- 21 day cycle
+Head & Neck	418	Cetuximab (weekly), CARBOplatin AUC 5 and 5-FU 1000mg/m2/day Therapy - 21 day cycle
+Head & Neck	419	CARBOplatin (AUC 2) Weekly with Radiotherapy (RT)
+Head & Neck	483	Nivolumab Monotherapy 240mg-14 day
+Head & Neck	484	Nivolumab Monotherapy 480mg-28day
+Head & Neck	514	Gemcitabine (1250mg/m2) Monotherapy - 21 day
+Head & Neck	517	Gemcitabine (1250mg/m2) and CISplatin (80mg/m2) Therapy - 21 day
+Head & Neck	552	CARBOplatini (AUC 5) and 5-Fluorouracil 1000mg/m2/day Therapy – 28 day cycle
+Head & Neck	558	Pembrolizumab 400mg Monotherapy
+Head & Neck	589	CARBOplatin 70mg/m2 and 5-Fluorouracil 600mg/m2 with Radiotherapy
+Head & Neck	591	CARBOplatin AUC 4 and 5-Fluorouracil 600mg/m2 with Radiotherapy
+Head & Neck	615	Cyclophosphamide, Doxorubicin and Cisplatin Therapy - 21 Day
+Leukaemia/BMT	224	Bosutinib Monotherapy
+Leukaemia/BMT	229	Ruxolitinib Monotherapy
+Leukaemia/BMT	231	Decitabine Monotherapy – AML (28 day cycle)
+Leukaemia/BMT	234	Brentuximab vedotin Monotherapy
+Leukaemia/BMT	241	Fludarabine, Cyclophosphamide and riTUXimab (FC IV+R) Therapy
+Leukaemia/BMT	286	Obinutuzumab and Chlorambucil Therapy
+Leukaemia/BMT	287	Azacitidine 75mg/m2 5-2-2 Therapy
+Leukaemia/BMT	288	Azacitidine 100mg/m2 5-day Therapy
+Leukaemia/BMT	302	Ponatinib Therapy
+Leukaemia/BMT	356	Tretinoin (ATRA) with Arsenic Trioxide (ATO) Induction Therapy
+Leukaemia/BMT	357	Tretinoin (ATRA) with Arsenic Trioxide (ATO) Consolidation Therapy
+Leukaemia/BMT	359	DA(60/100) 3+10: Course 1 Induction Therapy (AML-17)
+Leukaemia/BMT	360	DA (50/100) (3+8) Course 2 Induction Therapy (AML-17)
+Leukaemia/BMT	362	FLAG:Ida 8mg/m2 Therapy
+Leukaemia/BMT	364	Intermediate Dose Cytarabine Therapy
+Leukaemia/BMT	365	High Dose Cytarabine Therapy
+Leukaemia/BMT	366	Tretinoin (ATRA)/Idarubicin (PETHEMA AIDA) Induction Therapy
+Leukaemia/BMT	389	Idelalisib and riTUXimab Therapy
+Leukaemia/BMT	400	Venetoclax Monotherapy
+Leukaemia/BMT	402	Cladribine 0.14mg/kg Day 1 to 5 Therapy
+Leukaemia/BMT	410	Fludarabine, Cyclophosphamide and riTUXimab (FC Oral+R) Therapy
+Leukaemia/BMT	411	Chlorambucil10mg/m2 Therapy
+Leukaemia/BMT	469	Cladribine 0.14mg/kg Weekly Therapy
+Leukaemia/BMT	527	Bendamustine Monotherapy
+Leukaemia/BMT	537	Inotuzumab ozogamicin Monotherapy
+Leukaemia/BMT	538	Blinatumomab Therapy
+Leukaemia/BMT	575	Venetoclax and Rituximab therapy
+Leukaemia/BMT	590	Blinatumomab Therapy (ALL with MRD>0.1%
+Leukaemia/BMT	612	Gemtuzumab ozogamicin in combination with DAUNOrubicin and cytarabine Therapy (AML inducation)
+Leukaemia/BMT	613	Vyxeos liposomal® (DAUNOrubicin and cytarabine) Induction Therapy
+Leukaemia/BMT	618	Vyxeos liposomal® (DAUNOrubicin and cytarabine) Consolidation Therapy
+Lung	203	DOCEtaxel Monotherapy 75mg/m2 – 21 day cycle
+Lung	214	Bevacizumab 7.5mg/kg-21days
+Lung	215	Bevacizumab 15mg/kg - 21 days
+Lung	219	Erlotinib Monotherapy
+Lung	220	Gefitinib Monotherapy
+Lung	221	Afatinib Monotherapy
+Lung	222	PEMEtrexed Monotherapy
+Lung	226	PACLitaxel Monotherapy 80mg/m2 Day 1, 8, 15 and 22 – 28 Day
+Lung	232	Intravenous Vinorelbine Monotherapy-21day
+Lung	243	Crizotinib Monotherapy
+Lung	259	Oral Vinorelbine Monotherapy-7days
+Lung	271	CARBOplatin (AUC5) and Etoposide 100mg/m2 Therapy-21 day
+Lung	279	CISplatin (75mg/m2) + Etoposide (100mg/m2) +Thoracic Radiotherapy (TRT) -21 day
+Lung	280	CISplatin (75mg/m2) + Etoposide Therapy-21 day
+Lung	281	Gemcitabine (1250mg/m2) and CISplatin (75mg/m2) Therapy- 21 day
+Lung	284	Gemcitabine (1000mg/m2) Monotherapy - 28 day
+Lung	304	CARBOplatin (AUC6) and PACLitaxel 200mg/m2 Therapy
+Lung	309	Weekly CARBOplatin (AUC2) PACLitaxel 50mg/m2 Therapy
+Lung	310	Gemcitabine (1000mg/m2) and CARBOplatin (AUC 5) Therapy- 21 day
+Lung	311	Topotecan Monotherapy-5 day
+Lung	317	PEMEtrexed and CISplatin Therapy
+Lung	318	PEMEtrexed and CARBOplatin Therapy
+Lung	319	CARBOplatin and Oral Etoposide Therapy-21 days
+Lung	339	Vinorelbine and CISplatin Therapy-21 days
+Lung	340	Ceritinib Monotherapy
+Lung	343	Vinorelbine and CISplatin Therapy-28 days
+Lung	372	Nindetanib Therapy
+Lung	388	Oral Etoposide Therapy
+Lung	401	Alectinib Monotherapy
+Lung	455	Pembrolizumab 200mg Monotherapy
+Lung	456	CISplatin (50mg/m2) Etoposide (100mg/m2) and Thoracic Radiotherapy (TRT) -28 day
+Lung	483	Nivolumab Monotherapy 240mg-14 day
+Lung	484	Nivolumab Monotherapy 480mg-28day
+Lung	544	Atezolizumab 1200mg Monotherapy
+Lung	558	Pembrolizumab 400mg Monotherapy
+Lung	561	CARBOplatin (AUC 3), Etoposide (50mg/m2) and Thoracic Radiotherapy (TRT) -28 day
+Lung	562	Brigatinib Therapy
+Lung	565	Dacomitinib Monotherapy
+Lung	568	Pembrolizumab, PEMEtrexed and CARBOplatin (AUC 5) Therapy
+Lung	569	Pembrolizumab, PEMEtrexed and CISplatin Therapy
+Lung	570	Lorlatinib therapy
+Lung	579	Pembrolizumab, PACLitaxel and CARBOplatin (AUC 6) Therapy
+Lung	587	Topotecan Oral Monotherapy
+Lung	576	Durvalumab 10mg/kg Monotherapy-14 Day
+Lung	593	Atezolizumab 1680mg Monotherapy – 28 Day
+Lung	353	Osimertinib Monotherapy
+Lung	614	CARBOplatin and vinORELbine Therapy-21 Day
+Lung	592	Atezolizumab Monotherapy-14 day
+Lung	621	PACLitaxel 80mg/m2 Day 1, 8 and 15 Monotherapy-28 Day
+Lung	655	Durvalumab 1500mg Monotherapy-28 Day
+Lung	689	Atezolizumab 1200mg, CARBOplatin AUC 5 and Etoposide 100mg/m2 Therapy
+Lung	702	Entrectinib Therapy
+Lymphoma	234	Brentuximab vedotin Monotherapy
+Lymphoma	255	Pixantrone Therapy
+Lymphoma	277	Siltuximab Monotherapy
+Lymphoma	290	ABVD Therapy
+Lymphoma	291	Idelalisib Monotherapy
+Lymphoma	293	(*riTUXimab), Cyclophosphamide VinCRIStine and Prednisolone (*R)-CVP) Therapy– 21 days
+Lymphoma	297	Ibrutinib Therapy (Mantly Cell Lymphoma)
+Lymphoma	307	(R*)-CHOP – 21 days
+Lymphoma	345	riTUXimab and Bendamustine Therapy
+Lymphoma	354	Escalated Dose BEACOPP 21 day Therapy
+Lymphoma	355	Dose Adjusted R-EPOCH Therapy
+Lymphoma	393	Nordic Therapy
+Lymphoma	394	(R*)- ESHAP Therapy
+Lymphoma	395	(R**)-DHAP Therapy
+Lymphoma	396	CHOEP Therapy– 21 days
+Lymphoma	397	(R**)-ICE ((riTUXimab), Ifosfamide, CARBOplatin and Etoposide) Therapy
+Lymphoma	398	R-CODOX-M Therapy (Patients less than or equal to 65 years)
+Lymphoma	399	R-IVAC Therapy (Patients less than or equal to 65 years)
+Lymphoma	403	R-CODOX-M Therapy (Patients greater than 65 years)
+Lymphoma	404	R-IVAC Therapy (Patients greater than 65 years)
+Lymphoma	407	SMILE Therapy (NK or T-cell lymphoma)
+Lymphoma	408	BEAM Autologous Transplant Conditioning Protocol
+Lymphoma	409	(**riTUXimab) Cyclophosphamide, DOXOrubicin,vinCRIStine and Prednisolone (*R)-CHOP Therapy– 14 days
+Lymphoma	411	Chlorambucil10mg/m2 Therapy
+Lymphoma	424	Obinutuzumab and Bendamustine Therapy-28 day cycle
+Lymphoma	425	Obinutuzumab Maintenance Therapy -56 day
+Lymphoma	436	(R**)- miniCHOP Therapy – 21 days
+Lymphoma	441	riTUXimab* Gemcitabine, Dexamethasone and CISplatin ((R**)-GDP)
+Lymphoma	454	High Dose Melphalan Conditioning Therapy for Autologous Stem Cell Transplant
+Lymphoma	455	Pembrolizumab 200mg Monotherapy
+Lymphoma	466	riTUXimab-HyperCVAD Therapy (MCL) – Part A
+Lymphoma	467	riTUXimab-Methotrexate and Cytarabine Therapy (MCL) - Hyper CVAD Part B
+Lymphoma	468	LEAM Autologous Transplant Conditioning Protocol
+Lymphoma	483	Nivolumab Monotherapy 240mg-14 day
+Lymphoma	484	Nivolumab Monotherapy 480mg-28day
+Lymphoma	506	R-Gemcitabine (1000mg/m2) Oxaliplatin Therapyi - 14 day
+Lymphoma	508	High dose Methotrexate, high dose cytarabine, riTUXimab and thiotepa (MATRix) therapy
+Lymphoma	510	R-CEOP Therapy – 21 days
+Lymphoma	529	Brentuximab vedotin and Bendamustine Therapy
+Lymphoma	530	Brentuximab vedotin and ESHAP therapyi (BRESHAP)
+Lymphoma	532	Dexamethasone, riTUXimab and Cyclophosphamide (DRC)Therapy
+Lymphoma	540	RiTUXimab 375 mg/m2 Maintenance Therapy-84 day
+Lymphoma	541	RiTUXimab 375 mg/m2 Therapy-7 day
+Lymphoma	542	riTUXimab 375 mg/m2 Combination Therapy-21 day
+Lymphoma	543	RiTUXimab 375 mg/m2 Maintenance Therapy- 56 day
+Lymphoma	549	Obinutuzumab and CHOP Therapy – 21 day
+Lymphoma	550	obinutuzumab and CVP therapy -21 days
+Lymphoma	558	Pembrolizumab 400mg Monotherapy
+Lymphoma	528	Brentuximab vedotin and ICE Therapy
+Lymphoma	307.1	Cyclophosphamide, DOXOrubicin, vinCRIStine and prednisoLONE (CHOP) Therapy– 21 days
+Lymphoma	599	RiTUXimab (S/C 1400mg) Maintenance Therapy-84 day
+Lymphoma	600	RiTUXimab (S/C 1400mg) Maintenance Therapy-56 day
+Lymphoma	664	riTUXimab, Methotrexate, Procarbazine and vinCRIStine (R-MPV) – 14 Days Induction Therapyi
+Lymphoma	666	High Dose Cytarabine Consolidation Therapy (post RMPV) - 28 day Therapy
+Lymphoma	667	riTUXimab S/C, Cyclophosphamide, DOXOrubicin, VinCRIStine and Prednisolone (R-CHOP) Therapy– 21 Days
+Lymphoma	672	Dose Adjusted R (S/C)-EPOCH Therapy
+Lymphoma	685	Polatuzumab Vedotin, Bendamustine and riTUXimab Therapy
+Lymphoma	708	Zanubrutinib Therapy
+Lymphoma	737	(*riTUXimab)-Gemcitabine Cyclophosphamide vinCRIStine and PrednisoLONE (*R)-GCVP) Therapy–21 days
+Lymphoma	801	Brentuximab vedotin and Cyclophosphamide, DOXOrubicin and prednisoLONE (CHP) Therapy
+Myeloma	218	Lenalidomide 25mg and Dexamethasone Therapy - 28 day
+Myeloma	245	Pomalidomide and Dexamethasone
+Myeloma	270	Bortezomib and Dexamethasone Therapy
+Myeloma	273	Cyclophosphamide, Bortezomib and Dexamethasone (CyBorD) 21-Day Therapy
+Myeloma	274	Bortezomib + Dexamethasone +Thalidomide (VTD)Induction Therapy
+Myeloma	275	Bortezomib , Melphalan and Prednisolone
+Myeloma	299	Modified CyBorD/ Bortezomib, Cylophosphamide and Dexamethasone –Weekly Therapy
+Myeloma	405	Carfilzomib (27mg/m2 twice weekly), Lenalidomide and Dexamethasone (KRd) Therapy - 28 day
+Myeloma	416	Bortezomib, Lenalidomide and Dexamethasone (RVD) Therapy- 21 day
+Myeloma	426	Daratumumab Monotherapy
+Myeloma	435	Bortezomib Maintenance Therapy- 14 day
+Myeloma	454	High Dose Melphalan Conditioning Therapy for Autologous Stem Cell Transplant
+Myeloma	516	Ixazomib, Lenalidomide and Dexamethasone Therapy - 28 day
+Myeloma	598	Carfilzomib (56mg/m2 once weekly) Lenalidomide and Dexamethasone (KRd) Therapy - 28 day
+Myeloma	560	Daratumumab (IV), bortezomib and dexamethasone therapy
+Myeloma	566	Carfilzomib and Dexamethasone (Kd) Therapy - 28 day
+Myeloma	609	Daratumumab (SC 1800mg), Bortezomib and Dexamethasone Therapy
+Myeloma	604	Daratumumab SC Monotherapy
+Myeloma	595	Carfilzomib (20/70mg/m2 Once weekly) Dexamethasone (Kd) therapy - 28 day
+Myeloma	601	Pomalidomide, Bortezomib and Dexamethasone (PVD) Therapy
+Myeloma	643	Bortezomib, Lenalidomide and Dexamethasone (RVD) Therapy - 28 day
+Myeloma	695	Daratumumab (SC 1800mg), Bortezomib (weekly) and Dexamethasone Therapy
+Myeloma	703	Daratumumab (SC), Bortezomib, Thalidomide and Dexamethasone Induction Therapy
+Myeloma	755	Daratumumab (SC), Bortezomib, Thalidomide and Dexamethasone Consolidation Therapy
+Myeloma	752	Daratumumab (SC), Bortezomib, Thalidomide and Dexamethasone Induction Therapy
+Myeloma	756	Daratumumab (SC), Bortezomib, Thalidomide and Dexamethasone Consolidation Therapy
+Myeloma	780	Bortezomib,Lenalidomide and Dexamethasone (RVD Lite) Induction Therapy
+Myeloma	781	Bortezomib and Lenalidomide RVD lite consoldiation therapy
+Myeloma	782	Lenalidomide RVD lite Maintenance Therapy
+Neuroendocrine	320	Everolimus Monotherapy
+Neuroendocrine	327	Sunitnib 37.5mg Therapy
+Neuro-oncology	334	Temozolomide with RT and Adjuvant Therapy
+Neuro-oncology	342	Temozolomide Recurrent Therapy
+Neuro-oncology	379	Procarbazine Lomustine and VinCRIStine (PCV) Therapy
+Neuro-oncology	461	Temozolomide with Radiotherapy (RT) and Adjuvant Therapy-Patients greater than 65 years
+Neuro-oncology	658	Procarbazine, Lomustine and VinCRIStine (PCV) Therapy – 56 days
+Neuro-oncology	742	Lomustine and Bevacizumab 5mg/kg Therapy
+Paediatric Oncology	P00548	Dinutuximab beta and Isotretinoin Therapy
+Paediatric Oncology	P00567	Blinatumomab Paediatric Therapy
+Paediatric Oncology	P00707	Blinatumomab for Relapsed Paediatric ALL: Consolidation Therapy
+Paediatric Oncology	P00748	Tisagenlecleucel
+Sarcoma	100	Mifamurtide
+Sarcoma	205	Pegylated Liposomal DOXOrubicin 50mg/m2 (CAELYX) ® 28 days
+Sarcoma	325	Sunitnib 50mg Therapy
+Sarcoma	335	Imatinib Therapy-GIST
+Sarcoma	374	Trabectedin Monotherapy
+Sarcoma	391	DOXOrubicin (60) and Ifosfamide Therapy
+Sarcoma	392	DOXOrubicin (75) and Ifosfamide Therapy
+Sarcoma	420	DOXOrubicin (25mg/m2/day) and CISplatin (100mg/m2) Therapy - 21 day cycle
+Sarcoma	445	Pazopanib Therapy
+Sarcoma	462	Pegylated Liposomal DOXOrubicin 20mg/m2 (CAELYX) ® 21 days
+Sarcoma	463	(MAP) Methotrexate (12000mg/m2) DOXOrubicin (37.5mg/m2/day) and CISplatin (60mg/m2) Therapy
+Sarcoma	500	DOXOrubicin 75mg/m2 Monotherapy
+Sarcoma	501	Gemcitabine and DOCEtaxel Therapyi - 21 day
+Sarcoma	511	Dacarbazine (1.2 g/m2) Therapy – 21 day
+Sarcoma	554	VinBLAStine and Methotrexate Therapy
+Sarcoma	596	Ifosfamide Etoposide (IE) Therapy
+Sarcoma	675	Etoposide and ifosfamide - vinCRIStine, DOXOrubicin and cyclophosphamide (IE-VAC) Therapy – Two Weekly Intervals
+Sarcoma	679	Infusional Ifosfamide Therapy
+Sarcoma	719	SUNitinib 50mg Therapy (21 days)
+Sarcoma	747	Etoposide and ifosfamide - vinCRIStine, DOXOrubicin and cyclophosphamide (IE-VAC) Therapy – Two Weekly Intervals
+Skin/Melanoma	102	Vemurafenib Monotherapy
+Skin/Melanoma	105	Ipilimumab Monotherapy
+Skin/Melanoma	236	Vismodegib Monotherapy
+Skin/Melanoma	237	Dabrafenib Monotherapy
+Skin/Melanoma	373	Cobimetinib and Vemurafenib Therapy
+Skin/Melanoma	415	Trametinib and Dabrafenib Therapy
+Skin/Melanoma	431	Nivolumab 1mg/kg Ipilimumab 3mg/kg Therapy
+Skin/Melanoma	455	Pembrolizumab 200mg Monotherapy
+Skin/Melanoma	464	Dacarbazine Therapy
+Skin/Melanoma	483	Nivolumab Monotherapy 240mg-14 day
+Skin/Melanoma	484	Nivolumab Monotherapy 480mg-28day
+Skin/Melanoma	535	Avelumab Monotherapy
+Skin/Melanoma	551	Nivolumab 3mg Ipilimumab 1mg Therapy
+Skin/Melanoma	558	Pembrolizumab 400mg Monotherapy
+Skin/Melanoma	563	Encorafenib and Binimetinib Therapy
+Lymphoma and Myeloma	438	Cyclophosphamide 2000mg/m2 For Stem Cell Mobilisation
+Leukaemia	296	Ibrutinib Therapy (CLL/ Waldenstrom's Macroglobulinaemia)
+Leukaemia	363	FLAG Therapy
+Leukaemia	656	Acalabrutinib Monotherapy
+Leukaemia	661	Midostaurin Maintenance Therapy
+Leukaemia	682	Midostaurin (DAUNOrubicin and Cytarabine) Induction Therapy
+Leukaemia	683	Midostaurin and Intermediate Dose Cytarabine Consolidation Therapy
+Leukaemia	788	Fedratinib Therapy
+Leukaemia/BMT, Lymphoma	531	Cladribine 5 day and riTUXimab Therapy
+Leukaemia/BMT, Lymphoma	534	Cladribine Weekly and riTUXimab Therapy
+Lymphoma, Myeloma	536	Plerixafor and G-CSF Therapy
+Lymphoma, Myeloma	795	Cyclophosphamide 1500mg/m2 For Stem Cell Mobilisation
+Lymphoma	234	Brentuximab vedotin Monotherapy
+Lymphoma	751	(R*)-ICE ((riTUXimab*), Ifosfamide, CARBOplatin and Etoposide) Therapy - Outpatient
+Genitourinary/Gynaecology	300	Bleomycin, Etoposide and CISplatin (BEP)Therapy
+Genitourinary/Gynaecology	301	Etoposide and CISplatin 20mg/m2 (EP) Therapy
+Head and Neck	455	Pembrolizumab 200mg Monotherapy
+Lymphoma (CAR-T on website)	606	Fludarabine & Cyclophosphamide Lymphodepletion for Tisagenlecleucel (Kymriah®) DLBCL
+Lymphoma (CAR-T on website)	608	Fludarabine & Cyclophosphamide Lymphodepletion for Axicabtagene ciloleucel (Yescarta®)
+Leukaemia (CAR-T on website)	607	Fludarabine & Cyclophosphamide Lymphodepletion for Tisagenlecleucel (Kymriah®) B-cell ALL
+Leukaemia (CAR-T on website)	686	Tisagenlecleucel (Kymriah®) (CAR-T) B-ALL
+Transplant	611	Fludarabine/Melphalan/Alemtuzumab-RIC-SIB
+Transplant	625	Fludarabine/Melphalan/Alemtuzumab-RIC-MUD
+Transplant	629	Cyclophosphamide/Total Body Irradiation (TBI)–MAC–Mismatched Unrelated Donor
+Transplant	630	Cyclophosphamide/Total Body Irradiation (TBI)–MAC–Mismatched Sibling Donor
+Transplant	631	Cyclophosphamide/Total Body Irradiation (TBI)–MAC–MUD
+Transplant	635	Fludarabine/Busulfan/ATG Grafalon® – RIC – MUD
+Transplant	636	Fludarabine/Busulfan/ATG Grafalon® – RIC –SIB
+Transplant	637	Cyclophosphamide/Total Body Irradiation (TBI)–MAC–SIB
+Transplant	638	Carmustine/Etoposide/Cytarabine/Melphalan/Alemtuzumab RIC-SIB/MUD
+Transplant	639	Busulfan/Cyclophosphamide MAC-MUD
+Transplant	641	Busulfan/Cyclophosphamide MAC-SIB
+Transplant	662	Busulfan/Cyclophosphamide/ATG Grafalon® – MAC –Mismatched Sibling Donor
+Transplant	663	Busulfan/Cyclophosphamide/ATG Grafalon® – MAC –Mismatched Unrelated Donor
+Lymphoma (CAR-T)	687	Tisagenlecleucel (Kymriah®) (CAR-T) DLBCL
+Lymphoma (CAR-T)	717	Axicabtagene ciloleucel (Yescarta®) (CAR-T) DLBCL and PMBCL
+Breast, Genitourinary, supportive care	723	Zoledronic Acid Therapy-28 days
+Breast, Genitourinary, supportive care	724	Zoledronic Acid Therapy-3 monthly
+Breast, Genitourinary, supportive care	725	Zoledronic Acid Therapy-6 monthly
+Breast, Genitourinary, supportive care	741	Denosumab 120mg Therapy
+Tumour Agnostic	758	Larotrectinib Monotherapy - Adult
+Tumour Agnostic	P00760	Larotrectinib Monotherapy - Paediatric
