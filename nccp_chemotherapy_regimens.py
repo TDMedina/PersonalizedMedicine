@@ -14,7 +14,7 @@ CODE_PATTERN = re.compile(r"(P0|P|0)0\d{3}[a-z]?")
 def get_chemoprotocol_urls():
     soup = soupify_page(BASE_URL + "/eng/services/list/5/cancer/profinfo/chemoprotocols/")
     spanner = soup.find_all(name="span", class_=False,
-                            string="NCCP Chemotherapy Regimens")[0]
+                            string="NCCP National SACT Regimens")[0]
     urls = spanner.next.next.find_all(name="a")
     urls = [urljoin(BASE_URL, url["href"]).replace(" ", "%20") for url in urls]
     return urls
@@ -169,7 +169,7 @@ def organize_parsed_tables(parsed_data, harmonization_file=None):
                         indication = Indication(code, desc, source_url,
                                                 {drug_regimen}, disease)
                         all_indications[code] = indication
-                    drug_regimen.indication_codes.add(code)
+                    drug_regimen.indication_codes.add(indication)
     return all_regimens, all_indications
 
 
@@ -324,4 +324,4 @@ def main(harmonization_file):
 
 
 if __name__ == "__main__":
-    nccp_database = main("/home/tyler/Documents/PersonalizedMedicine/NCCP_Cancer_Regimens/harmonization.tsv")
+    nccp_database = main("/home/tyler/Documents/Projects/PersonalizedMedicine/NCCP_Cancer_Regimens/harmonization.tsv")
