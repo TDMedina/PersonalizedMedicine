@@ -21,7 +21,7 @@ def get_chemoprotocol_urls():
 
 
 def parse_tables_from_all_urls(url_list):
-    parsed = {}
+    parsed = dict()
     for url in url_list:
         parsed[url] = parse_tables_from_url(url)
     return parsed
@@ -77,15 +77,11 @@ def parse_regimen(regimen_td_tag):
     name_results = regimen_td_tag.find_all("strong")
     if not name_results:
         return None, None
-    # if len(name_results) > 1:
-    #     warn(f"Multiple regimen names found: {name_results}")
     regimen_name = name_results[0].string
     if regimen_name is None:
         regimen_name = re.sub("</?.+?>", "", str(name_results[0]))
 
     regimen_link = regimen_td_tag.find_all("a")
-    # if len(regimen_link) > 1:
-    #     warn(f"Multiple regimen links found: {regimen_link}")
     regimen_link = regimen_link[0]["href"]
     regimen_link = urljoin(BASE_URL, regimen_link)
     return regimen_name, regimen_link
@@ -100,19 +96,9 @@ def parse_indications(indication_td_tag):
             current_id = code_search[0]
             indics[current_id] = ""
             continue
-        # if bold := entry.find("strong"):
-        #     if not bold.string:
-        #         continue
-        #     if not bold.string == entry.string:
-        #         continue
-        #     current_id = str(entry.string).strip("*").strip()
-        #     indics[current_id] = ""
-        #     continue
         if current_id not in indics:
             warn(f"Skipped indication: '{current_id}' in entry: '{entry}'",
                  category=RuntimeWarning)
-            # print(indication_td_tag)
-            # print("------")
             continue
         desc = str(entry)
         desc = re.sub(r"\xa0", " ", desc)
@@ -174,15 +160,11 @@ def organize_parsed_tables(parsed_data, harmonization_file=None):
 
 
 def fix_regimen_name(regimen_name, harmonization_dict=None):
-    reg_name = regimen_name.lower().strip().rstrip("*")
+    reg_name = regimen_name.strip().rstrip("*")
     reg_name = re.sub(r"\xa0", r" ", reg_name)  # Replace non-breaking spaces.
-    reg_name = re.sub(r" +(mono)?therapy$", r"", reg_name)  # Remove trailing 'therapy'.
     reg_name = re.sub(r"–", r"-", reg_name)  # Replace em-dash with en-dash.
     reg_name = re.sub(r" ?- ?(?=\d)", r" - ", reg_name)  # Normalize duration hyphenation.
-    reg_name = re.sub(r" {2,}", r" ", reg_name)  # Remove double spacing.
     reg_name = re.sub(r"(- \d+) ?days?$", r"\1 days", reg_name)  # Normalize 'days'.
-    if harmonization_dict and reg_name in harmonization_dict:
-        reg_name = harmonization_dict[reg_name]
     return reg_name
 
 
