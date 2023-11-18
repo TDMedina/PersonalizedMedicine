@@ -25,6 +25,7 @@ class SurvivalData:
 
     @staticmethod
     def read_csv(survival_data):
+        """Read NCRI survival data in CSV format."""
         survival_data = pd.read_csv(survival_data, sep=",")
         survival_data = survival_data.loc[survival_data.Dates != "2009-2013"]
         survival_data = (survival_data
@@ -34,6 +35,7 @@ class SurvivalData:
         return survival_data
 
     def plot(self):
+        """Plot NCRI historic survival data."""
         survival_plot = px.line(self._obj, x="Time (years)", y="Net survival",
                                 color="Dates", markers=True,
                                 title=("Survival: All invasive cancers "
@@ -52,6 +54,7 @@ class PopulationData:
 
     @staticmethod
     def read_csv(population_csv, correct_errant_years=True):
+        """Read CSO population estimates in CSV format."""
         pop_data = pd.read_csv(population_csv, sep=",", usecols=[1, 2, 3, 5])
 
         cols = list(pop_data.columns)
@@ -81,7 +84,7 @@ class PopulationData:
         return pop_data
 
     def aggregate_cancer_age_groups(self):
-        # population_data = self._obj.loc[idx[:, "Both", :]]
+        """Aggregate CSO age bands to match NCRI age bands."""
         aggregate = pd.DataFrame(columns=["Year", "Sex", "Population", "Age Group"])
         for i, (agg_band, bands) in enumerate(BAND_DICT.items()):
             sub_agg = self._obj.loc[idx[:, :, bands]].groupby(["Year", "Sex"]).agg(sum)
@@ -93,6 +96,7 @@ class PopulationData:
         return aggregate
 
     def add_proportions(self):
+        """Add column of population proportions per category."""
         data = self._obj
         year_aggregated = data.groupby(["Year", "Sex"]).agg(sum)
         data["Proportion"] = [pop / year_aggregated.loc[idx[year, sex]].Population
@@ -100,6 +104,12 @@ class PopulationData:
         return data
 
     def plot(self, normalized=False, aggregate_cancer_groups=False):
+        """Plot CSO population estimates over time.
+
+        Age bands can be aggregated to match NCRI cancer bands. Plot can show raw
+        counts or proportional contributions of each age band to total population
+        per year.
+        """
         data = self._obj
         if aggregate_cancer_groups:
             data = data.population_tools.aggregate_cancer_age_groups()
@@ -122,6 +132,7 @@ class AgeIncidenceData:
 
     @staticmethod
     def read_csv(incidence_data):
+        """Read NCRI cancer incidence by age group in CSV format."""
         data = pd.read_csv(incidence_data, sep=",")
         cols = list(data.columns)
         cols[0] = "Age Group"
@@ -134,6 +145,11 @@ class AgeIncidenceData:
         return data
 
     def plot(self, raw_count=False, combined=False):
+        """Plot NCRI cancer incidence by age group over time.
+
+        Plot can show incidence per 100K people per age group, or raw counts per year,
+         or both using combined=True. If combined=True, raw_count is ignored.
+        """
         if combined:
             incidence_plot = self._plot_combined()
             return incidence_plot
@@ -196,6 +212,7 @@ class SexIncidenceData:
 
     @staticmethod
     def read_csv(sex_incidence_csv):
+        """Read NCRI cancer incidence by sex in CSV format."""
         incidence = pd.read_csv(sex_incidence_csv)
         incidence["Year"] = [datetime(x, 1, 1) for x in incidence.Year]
         incidence.set_index(["Year", "Sex"], inplace=True)
@@ -204,15 +221,18 @@ class SexIncidenceData:
         return incidence
 
     def merge_with_population_table(self, population_df):
-        # pop_data = population_df.loc[population_df["Age Group"] == "All ages"]
+        """Add population totals column from formatted CSO data."""
         pop_data = population_df.groupby(["Year", "Sex"]).agg(sum)
-        # pop_data.drop("Age Group", axis=1, inplace=True)
-        # pop_data.set_index(["Year", "Sex"], inplace=True)
         data = pd.merge(self._obj, pop_data, left_index=True, right_index=True)
         data["Relative numbers"] = data["Case numbers"] / data["Population"] * 100000
         return data
 
     def plot(self, raw_count=True, combined=False):
+        """Plot NCRI cancer incidence by sex over time.
+
+        Plot can show incidence per 100K per sex, or raw counts, or both. If
+        combined=True, raw_count is ignored.
+        """
         if combined:
             incidence_plot = self._plot_combined()
             return incidence_plot
@@ -260,6 +280,7 @@ class SexIncidenceData:
 
 
 def main(age_incidence_csv, sex_incidence_csv, population_csv, survival_csv):
+    """Read relevant data and return plots."""
     age_incidence = AgeIncidenceData.read_csv(age_incidence_csv)
     sex_incidence = SexIncidenceData.read_csv(sex_incidence_csv)
     population = PopulationData.read_csv(population_csv)
